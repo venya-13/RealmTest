@@ -25,7 +25,7 @@ import org.bson.types.ObjectId
 open class User : RealmObject {
     @PrimaryKey
     var _id: ObjectId = ObjectId()
-    @Required
+
     var strVal : String = ""
     var intVal : Int = 0
 
